@@ -19,7 +19,11 @@ a:hover,
 a:active {
     text-decoration: none;
 }
-
+.table.table-bordered th,
+.table.table-bordered td {
+    text-align: center;
+    vertical-align: middle;
+}
 .panel-title {
     height: 40px;
     line-height: 40px;
