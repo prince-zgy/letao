@@ -37,6 +37,10 @@ a:active {
     left: 0;
     top: 0;
     z-index: 999;
+    transition:all 1s;
+}
+.lt_aside.hidemenu {
+    left:-180px;
 }
 .lt_aside .brand {
     height: 50px;
@@ -95,7 +99,7 @@ a:active {
 .lt_main {
     height: 1000px;
     width: 100%;
-    background-color: pink;
+    /*background-color: pink;*/
     padding-left: 180px;
     padding-top: 50px;
     transition: all 1s;
@@ -105,11 +109,11 @@ a:active {
 }
 
 .lt_topbar {
+    position: fixed;
     height: 50px;
     width: 100%;
     line-height: 50px;
     background-color: #3C8DBC;
-    position: fixed;
     top: 0;
     right: 0;
     padding-left: 180px;
@@ -130,5 +134,9 @@ a:active {
 .breadcrumb {
     margin-top: 20px;
 }
-
+.main_body .charts_1,
+.main_body .charts_2{
+    width: 45%;
+    height: 400px;
+}
 /* lt_main 结束 */
