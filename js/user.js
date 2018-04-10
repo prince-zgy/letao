@@ -52,7 +52,6 @@ $(function () {
         var id = $(this).parent().data("id");
 
         var isDelete = $(this).hasClass("btn-success")? 1 : 0;
-
         //绑定事件之前先把原有的事件解除掉
         $("#submitBtn").off("click").on("click",function () {
 

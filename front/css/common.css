@@ -112,3 +112,24 @@ img {
     overflow: hidden;
     background-color: #fff;
 }
+
+
+/* 公共样式提取 */
+/* 搜索框 */
+.lt_search {
+    padding: 10px;
+}
+.lt_search input {
+    height: 34px;
+    border: 1px solid #007AFF;
+    border-radius: 5px;
+    padding-right: 54px;
+    font-size: 12px;
+    margin: 0;
+}
+.lt_search button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 0 5px 5px 0;
+}
